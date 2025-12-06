@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zentrixia Learning Hub</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid/css/uicons-solid.css">
+
+
+</head>
+
+<body>
+
+    <!-- ========== HEADER / NAVBAR ========== -->
+    <header>
+        <!-- LOGO -->
+        <div class="logo">
+            <h2>Zentrixia</h2>
+        </div>
+
+        <!-- Header ke andar nav ke right side -->
+         <div class="theme-toggle" id="themeToggle">
+    <img src="light.png" class="theme-icon light-icon">
+    <img src="moon.png" class="theme-icon dark-icon">
+</div>
+        <!-- NAVIGATION -->
+        <nav>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+
+        <!-- Courses Dropdown -->
+        <li class="dropdown">
+            <a href="#courses">Courses ▾</a>
+            <ul class="dropdown-menu">
+                <li><a href="#ai">AI Courses</a></li>
+                <li><a href="#web">Web Development</a></li>
+                <li><a href="#design">UI/UX Design</a></li>
+                <li><a href="#cloud">Cloud Computing</a></li>
+                <li><a href="#data">Data Science</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#instructors">Instructors</a></li>
+        <li><a href="#joinnow">Join Now</a></li>
+    </ul>
+</nav>
+
+    </header>
+
+    <!-- ========== HOME SECTION ========== -->
+    <section id="home">
+         
+    <div class="icons">
+        <img src="img1.gif" alt="">
+        <img src="img2.gif" alt="">
+        <img src="img3.gif" alt="">
+        <img src="img4.gif" alt="">
+        <img src="img5.gif" alt="">
+        <img src="img6.gif" alt="">
+        <img src="img7.gif" alt="">
+     
+        <img src="img1.gif" alt="">
+        <img src="img2.gif" alt="">
+        <img src="img3.gif" alt="">
+        <img src="img4.gif" alt="">
+        <img src="img5.gif" alt="">
+        <img src="img6.gif" alt="">
+        <img src="img7.gif" alt="">
+
+         <img src="img1.gif" alt="">
+        <img src="img2.gif" alt="">
+        <img src="img3.gif" alt="">
+        <img src="img4.gif" alt="">
+        <img src="img5.gif" alt="">
+        <img src="img6.gif" alt="">
+        <img src="img7.gif" alt="">
+
+         <img src="img1.gif" alt="">
+        <img src="img2.gif" alt="">
+        <img src="img3.gif" alt="">
+        <img src="img4.gif" alt="">
+        <img src="img5.gif" alt="">
+        <img src="img6.gif" alt="">
+        <img src="img7.gif" alt="">
+    
+</div>
+
+        <!-- FLOATING SYMBOLS -->
+        <div class="floating-symbols">
+            <span>⚛</span>
+            <span>⌨</span>
+            <span>✦</span>
+            <span>AI</span>
+            <span>∞</span>
+            <span>★</span>
+            <span>{ }</span>
+            <span>/* */</span>
+            <span>⚛</span>
+            <span>⌨</span>
+            <span>✦</span>
+            <span>AI</span>
+        </div>
+
+        <!-- CENTERED CONTENT -->
+        <div class="home-content">
+            <h1>Zentrixia Learning Hub</h1>
+            <h3>Learn Fast. Learn Smart.</h3>
+            <p class="about_me">
+                Master future-ready skills in just 5–15 days with micro-certification programs.
+            </p>
+        </div>
+        <div class="explore-btn-container"> <a href="#courses" class="btn">Explore Courses</a></div>
+    <div class="icons2">
+        <img src="img1.gif" alt="">
+        <img src="img2.gif" alt="">
+        <img src="img3.gif" alt="">
+        <img src="img4.gif" alt="">
+        <img src="img5.gif" alt="">
+        <img src="img6.gif" alt="">
+        <img src="img7.gif" alt="">
+     
+        <img src="img1.gif" alt="">
+        <img src="img2.gif" alt="">
+        <img src="img3.gif" alt="">
+        <img src="img4.gif" alt="">
+        <img src="img5.gif" alt="">
+        <img src="img6.gif" alt="">
+        <img src="img7.gif" alt="">
+
+         <img src="img1.gif" alt="">
+        <img src="img2.gif" alt="">
+        <img src="img3.gif" alt="">
+        <img src="img4.gif" alt="">
+        <img src="img5.gif" alt="">
+        <img src="img6.gif" alt="">
+        <img src="img7.gif" alt="">
+
+         <img src="img1.gif" alt="">
+        <img src="img2.gif" alt="">
+        <img src="img3.gif" alt="">
+        <img src="img4.gif" alt="">
+        <img src="img5.gif" alt="">
+        <img src="img6.gif" alt="">
+        <img src="img7.gif" alt="">
+    </div>
+
+    </section>
+   
+
+<!-- ========== COURSES SECTION ========== -->
+<section id="courses">
+    <div class="section-title">
+        <h2>Our Courses</h2>
+        <p><b>Explore micro-certification programs designed to skill you up fast.</b></p>
+    </div>
+
+    <div class="course-search">
+    <input 
+        type="text" 
+        id="searchInput" 
+        placeholder="Search courses..."
+        onkeyup="searchCourses()"
+    >
+</div>
+
+
+    <div class="courses-grid">
+        <!-- Course Card 1 -->
+       <div class="course-card">
+    <div class="course-text">
+        <h3>AI Basics</h3>
+        <p><strong>Duration:</strong> 7 Days</p>
+        <p><strong>Skill Level:</strong> Beginner</p>
+        <p><strong>Price:</strong> &#8377;1000</p>
+    </div>
+    <div class="course-image">
+        <img src="Ai.jpg" alt="AI Basics">
+    </div>
+</div>
+
+
+        <!-- Course Card 2 -->
+        <div class="course-card">
+    <div class="course-text">
+        <h3>Web Development Bootcamp</h3>
+        <p><strong>Duration:</strong> 10 Days</p>
+        <p><strong>Skill Level:</strong> Intermediate</p>
+        <p><strong>Price:</strong> &#8377;2500</p>
+    </div>
+    <div class="course-image">
+        <img src="web.png" alt="web Basics">
+    </div>
+</div>
+
+
+        <!-- Course Card 3 -->
+       <div class="course-card">
+    <div class="course-text">
+        <h3>UI/UX Fundamentals</h3>
+        <p><strong>Duration:</strong> 7 Days</p>
+        <p><strong>Skill Level:</strong> Beginner</p>
+        <p><strong>Price:</strong> &#8377;1000</p>
+    </div>
+    <div class="course-image">
+        <img src="UI.jpg" alt="ui/ux Basics">
+    </div>
+</div>
+
+
+        <!-- Course Card 4 -->
+       <div class="course-card">
+    <div class="course-text">
+        <h3>Cloud Computing Essentials</h3>
+        <p><strong>Duration:</strong> 12 Days</p>
+        <p><strong>Skill Level:</strong> Advanced</p>
+        <p><strong>Price:</strong>&#8377;3500</p>
+    </div>
+    <div class="course-image">
+        <img src="cloud.jpeg" alt="cloud Basics">
+    </div>
+</div>
+
+
+        <!-- Course Card 5 -->
+       <div class="course-card">
+    <div class="course-text">
+        <h3>Python for Data Science</h3>
+        <p><strong>Duration:</strong> 10 Days</p>
+        <p><strong>Skill Level:</strong> Beginner</p>
+        <p><strong>Price:</strong> &#8377;1000</p>
+    </div>
+    <div class="course-image">
+        <img src="python.png" alt="python Basics">
+    </div>
+</div>
+
+
+        <!-- Course Card 6 -->
+        <div class="course-card">
+    <div class="course-text">
+        <h3>Cyber Security Fundamentals</h3>
+        <p><strong>Duration:</strong> 7 Days</p>
+        <p><strong>Skill Level:</strong> Beginner</p>
+        <p><strong>Price:</strong>&#8377;500</p>
+    </div>
+    <div class="course-image">
+        <img src="cyber.jpeg" alt="cyber">
+    </div>
+</div>
+
+    </div>
+</section>
+  
+<!-- ========== PROGRAMS TIMELINE SECTION ========== -->
+<section id="programs" class="timeline-section">
+    <h2 class="timeline-title">Signature Learning Programs</h2>
+
+    <div class="timeline">
+
+        <!-- Program 1 -->
+        <div class="container left">
+            <div class="content">
+                <h3>AI Accelerator Program</h3>
+                <span class="badge"><i class="fi fi-sr-graduation-cap"></i> Certificate on completion</span>
+                <p><b>Master Machine Learning, Neural Networks & Generative AI tools in 8 weeks.</b></p>
+                <ul>
+                    <li>8 Weeks Intensive</li>
+                    <li>Hands-on Projects</li>
+                    <li>Certification Included</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Program 2 -->
+        <div class="container right">
+            <div class="content">
+                <h3>Full-Stack Developer Roadmap</h3>
+                <span class="badge purple"><i class="fi fi-sr-graduation-cap"></i> Certificate on completion</span>
+                <p><b>Become job-ready with MERN stack, APIs, databases, and deployment.</b></p>
+                <ul>
+                    <li>12 Weeks Deep Learning</li>
+                    <li>Live Mentorship</li>
+                    <li>Job-Focused Projects</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Program 3 -->
+        <div class="container left">
+            <div class="content">
+                <h3>UI/UX Designer Pro Track</h3>
+                <span class="badge blue"><i class="fi fi-sr-graduation-cap"></i> Certificate on completion</span>
+                <p><b>Learn design thinking, prototyping, UI systems and portfolio creation.</b></p>
+                <ul>
+                    <li>6 Weeks Workshop</li>
+                    <li>Portfolio Development</li>
+                    <li>Certification + Templates</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ========== INSTRUCTORS SECTION ========== -->
+<section id="instructors">
+    <div class="section-title">
+        <h2>Meet Our Instructors</h2>
+        <p><b>Learn from experienced mentors who bring real-world expertise.</b></p>
+    </div>
+
+    <div class="instructor-grid">
+
+        <!-- Instructor 1 -->
+        <div class="instructor-card">
+            <img src="inst1.jpg" class="instructor-img" alt="Instructor">
+            <h3>Dr. Aisha Verma</h3>
+            <p class="expertise">AI & Machine Learning Expert</p>
+            <button class="learn-btn" data-modal="modal1">Learn More</button>
+        </div>
+
+        <!-- Instructor 2 -->
+        <div class="instructor-card">
+            <img src="inst2.png" class="instructor-img" alt="Instructor">
+            <h3>Rohan Mehta</h3>
+            <p class="expertise">Full-Stack Developer</p>
+            <button class="learn-btn" data-modal="modal2">Learn More</button>
+        </div>
+
+        <!-- Instructor 3 -->
+        <div class="instructor-card">
+            <img src="inst3.png" class="instructor-img" alt="Instructor">
+            <h3>Sara Malik</h3>
+            <p class="expertise">UI/UX Designer</p>
+            <button class="learn-btn" data-modal="modal3">Learn More</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- Fullscreen Modals -->
+
+<!-- Modal 1 -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="inst1.jpg" class="modal-img">
+        <h3>Dr. Aisha Verma</h3>
+        <p>8+ years in AI & Data Science. Guided 12,000+ learners worldwide.</p>
+        <ul>
+            <li>PhD in AI</li>
+            <li>Ex-Google ML Engineer</li>
+            <li>Published 20+ AI Research Papers</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Modal 2 -->
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="inst2.png" class="modal-img">
+        <h3>Rohan Mehta</h3>
+        <p>MERN stack expert, built 25+ production-grade apps.</p>
+        <ul>
+            <li>MERN Expert</li>
+            <li>Senior Developer at Meta</li>
+            <li>7+ Years Industry Experience</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Modal 3 -->
+<div id="modal3" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="inst3.png" class="modal-img">
+        <h3>Sara Malik</h3>
+        <p>UI/UX Designer, creating portfolio-ready projects & user-friendly apps.</p>
+        <ul>
+            <li>10+ Years Experience</li>
+            <li>Ex-Adobe Designer</li>
+            <li>Portfolio Specialist</li>
+        </ul>
+    </div>
+</div>
+
+<!-- ========== JOIN NOW SECTION ========== -->
+<section id="joinnow" class="join-section">
+    <div class="section-title">
+        <h2>Join Zentrixia Today</h2>
+        <p><b>Sign up and kickstart your fast-track learning journey.</b></p>
+    </div>
+
+    <div class="join-container">
+
+        <!-- Illustration Images -->
+        <div class="join-illustrations">
+            <img src="certificate.png" alt="Certificate Girl" class="illus-img">
+            <img src="learning.svg" alt="Learning Icons" class="illus-img small">
+        </div>
+
+        <!-- Form -->
+        <form class="join-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="text" placeholder="Course of Interest" required>
+            <button type="submit" class="btn">Enroll Now</button>
+        </form>
+    </div>
+</section>
+<!-- ========== PREMIUM ANIMATED FOOTER ========== -->
+<footer class="footer-hero">
+    <div class="floating-shape shape1"></div>
+    <div class="floating-shape shape2"></div>
+    <div class="floating-shape shape3"></div>
+
+    <div class="footer-wrapper">
+
+        <!-- Branding -->
+        <div class="footer-brand">
+            <h2>Zentrixia <span>Learning Hub</span></h2>
+            <p class="tagline">“Learn Fast. Learn Smart.”</p>
+
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#instructors">Instructors</a></li>
+                <li><a href="#joinnow">Join Now</a></li>
+                <li><a href="#courses">Courses</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-contact">
+            <h3>Contact</h3>
+            <p><strong>Email:</strong> hello@zentrixia.tech</p>
+            <p><strong>Hours:</strong> 10:00 AM – 9:00 PM</p>
+            <p>(Mon–Fri)</p>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-news">
+            <h3>Newsletter</h3>
+            <p>Stay updated with new courses & offers.</p>
+            <form>
+                <input type="email" placeholder="Enter email..." required>
+                <button>Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Zentrixia Learning Hub. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
