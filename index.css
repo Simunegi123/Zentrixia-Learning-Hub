@@ -1138,11 +1138,11 @@ body.dark-mode .dark-icon {
     }
 
     .logo h2 {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .nav-links {
-        gap: 5px;
+        gap: 10px;
         font-size: 2px;
     }
 
@@ -1170,4 +1170,5 @@ body.dark-mode .dark-icon {
     .profile-sidebar {
         width: 230px;
     }
+
 }
